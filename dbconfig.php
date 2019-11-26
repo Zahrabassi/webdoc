@@ -1,4 +1,4 @@
-,<?php
+<?php
 class Database
 {   
    
@@ -7,7 +7,7 @@ class Database
 	$servername="localhost";
 	$username="root";
 	$password="";
-	$dbname="dblogin";
+	$dbname="infos";
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 		return $conn;
 	}
