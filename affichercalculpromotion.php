@@ -1,7 +1,3 @@
-<?php
-ob_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,12 +7,12 @@ ob_start();
   <meta name="description" content="">
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>Immobiliere Jarraya</title>
+  <title>Quincaillerie EL YOSR</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!-- Favicons -->
-  <link href="img/sj.png" rel="icon">
+  <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap core CSS -->
@@ -27,7 +23,7 @@ ob_start();
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style-responsive.css" rel="stylesheet">
 
-
+  
   <!-- =======================================================
     Template Name: Dashio
     Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
@@ -49,7 +45,7 @@ ob_start();
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.html" class="logo"><b>Immobiliere <span>Jarraya</span></b></a>
+      <a href="index.html" class="logo"><b>quincaillerie <span>EL YOSR</span></b></a>
       <!--logo end-->
       <div class="nav notify-row" id="top_menu">
         <!--  notification start -->
@@ -59,7 +55,7 @@ ob_start();
             <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
               <i class="fa fa-tasks"></i>
               <span class="badge bg-theme">4</span>
-            </a>
+              </a>
             <ul class="dropdown-menu extended tasks-bar">
               <div class="notify-arrow notify-arrow-green"></div>
               <li>
@@ -128,7 +124,7 @@ ob_start();
             <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
               <i class="fa fa-envelope-o"></i>
               <span class="badge bg-theme">5</span>
-            </a>
+              </a>
             <ul class="dropdown-menu extended inbox">
               <div class="notify-arrow notify-arrow-green"></div>
               <li>
@@ -138,53 +134,53 @@ ob_start();
                 <a href="index.html#">
                   <span class="photo"><img alt="avatar" src="img/ui-zac.jpg"></span>
                   <span class="subject">
-                    <span class="from">Zac Snider</span>
-                    <span class="time">Just now</span>
+                  <span class="from">Zac Snider</span>
+                  <span class="time">Just now</span>
                   </span>
                   <span class="message">
-                    Hi mate, how is everything?
+                  Hi mate, how is everything?
                   </span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="photo"><img alt="avatar" src="img/ui-divya.jpg"></span>
                   <span class="subject">
-                    <span class="from">Divya Manian</span>
-                    <span class="time">40 mins.</span>
+                  <span class="from">Divya Manian</span>
+                  <span class="time">40 mins.</span>
                   </span>
                   <span class="message">
-                    Hi, I need your help with this.
+                  Hi, I need your help with this.
                   </span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="photo"><img alt="avatar" src="img/ui-danro.jpg"></span>
                   <span class="subject">
-                    <span class="from">Dan Rogers</span>
-                    <span class="time">2 hrs.</span>
+                  <span class="from">Dan Rogers</span>
+                  <span class="time">2 hrs.</span>
                   </span>
                   <span class="message">
-                    Love your new Dashboard.
+                  Love your new Dashboard.
                   </span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="photo"><img alt="avatar" src="img/ui-sherman.jpg"></span>
                   <span class="subject">
-                    <span class="from">Dj Sherman</span>
-                    <span class="time">4 hrs.</span>
+                  <span class="from">Dj Sherman</span>
+                  <span class="time">4 hrs.</span>
                   </span>
                   <span class="message">
-                    Please, answer asap.
+                  Please, answer asap.
                   </span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">See all messages
-                </a>
+                  </a>
               </li>
             </ul>
           </li>
@@ -194,7 +190,7 @@ ob_start();
             <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
               <i class="fa fa-bell-o"></i>
               <span class="badge bg-warning">7</span>
-            </a>
+              </a>
             <ul class="dropdown-menu extended notification">
               <div class="notify-arrow notify-arrow-yellow"></div>
               <li>
@@ -204,25 +200,25 @@ ob_start();
                 <a href="index.html#">
                   <span class="label label-danger"><i class="fa fa-bolt"></i></span> Server Overloaded.
                   <span class="small italic">4 mins.</span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="label label-warning"><i class="fa fa-bell"></i></span> Memory #2 Not Responding.
                   <span class="small italic">30 mins.</span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="label label-danger"><i class="fa fa-bolt"></i></span> Disk Space Reached 85%.
                   <span class="small italic">2 hrs.</span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">
                   <span class="label label-success"><i class="fa fa-plus"></i></span> New User Registered.
                   <span class="small italic">3 hrs.</span>
-                </a>
+                  </a>
               </li>
               <li>
                 <a href="index.html#">See all notifications</a>
@@ -251,20 +247,20 @@ ob_start();
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
           <p class="centered">
-            <a href="profile.html"><img src="img/sj.jpg" class="img-circle" width="80"></a>
+            <a href="profile.html"><img src="img/ui-sam.JPG" class="img-circle" width="80"></a>
           </p>
-          <h5 class="centered">Med Ali Jarraya</h5>
+          <h5 class="centered">MED AMINE CHAEIB</h5>
           <li class="mt">
             <a href="index.html">
               <i class="fa fa-dashboard"></i>
               <span>Dashboard</span>
-            </a>
+              </a>
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
               <i class="fa fa-book"></i>
               <span>Extra Pages</span>
-            </a>
+              </a>
             <ul class="sub">
               <li>
                 <a href="blank.html">Blank Page</a>
@@ -299,19 +295,19 @@ ob_start();
             <a class="active" href="javascript:;">
               <i class="fa fa-tasks"></i>
               <span>Promotion</span>
-            </a>
+              </a>
             <ul class="sub">
 
-              <li class="active"><a href="Ajouter_promotion.php">Ajouter Promotion</a></li>
+              <li class="active" ><a href="Ajouter_promotion.html">Ajouter Promotion</a></li>
               <li><a href="afficherpromotion.php">Afficher Promotion</a>
               </li>
             </ul>
-          <li>
-          <li class="sub-menu">
+ <li>
+                      <li class="sub-menu">
             <a href="javascript:;">
               <i class="fa fa-tasks"></i>
               <span>calcule Promo</span>
-            </a>
+              </a>
             <ul class="sub">
               <li><a href="calcul_promotion.html">calcul Promotion</a></li>
               <li><a href="affichercalculpromotion.php">Afficher calcul Promotion</a></li>
@@ -324,13 +320,13 @@ ob_start();
               <i class="fa fa-envelope"></i>
               <span>Mail </span>
               <span class="label label-theme pull-right mail-info">2</span>
-            </a>
+              </a>
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
               <i class=" fa fa-bar-chart-o"></i>
               <span>Charts</span>
-            </a>
+              </a>
             <ul class="sub">
               <li>
                 <a href="morris.html">Morris</a>
@@ -350,7 +346,7 @@ ob_start();
             <a href="javascript:;">
               <i class="fa fa-comments-o"></i>
               <span>Chat Room</span>
-            </a>
+              </a>
             <ul class="sub">
               <li>
                 <a href="lobby.html">Lobby</a>
@@ -364,7 +360,7 @@ ob_start();
             <a href="google_maps.html">
               <i class="fa fa-map-marker"></i>
               <span>Google Maps </span>
-            </a>
+              </a>
           </li>
         </ul>
         <!-- sidebar menu end-->
@@ -374,11 +370,11 @@ ob_start();
     <!-- **********************************************************************************************************************************************************
         MAIN CONTENT
         *********************************************************************************************************************************************************** -->
-    <!--main content start-->
-    <?PHP
+  <!--main content start-->
+      <?PHP
     include "core/promotionC.php";
-    $promotion1C = new promotionC();
-    $listepromotion = $promotion1C->afficherpromotion();
+    $promotion1C=new promotionC();
+    $listepromotion=$promotion1C->afficherpromotion();
 
     //var_dump($listepromotions->fetchAll());
     ?>
@@ -390,158 +386,46 @@ ob_start();
           <div class="col-md-12">
             <div class="content-panel">
               <table class="table table-striped table-advance table-hover">
-                <h4><i class="fa fa-angle-right"></i> Produits en Promotion</h4>
+                <h4><i class="fa fa-angle-right"></i> prix finale des produits</h4>
                 <hr>
                 <thead>
-
-                  <th><i class="fa fa-bullhorn"></i> Reference</th>
-                  <th class="hidden-phone"><i class="fa fa-question-circle"></i> Nom Produit</th>
-                  <th><i class=" fa fa-edit"></i> Photo produit </th>
-                  <th><i class="fa fa-bookmark"></i> Prix initiale</th>
-                  <th><i class=" fa fa-edit"></i> Pourcentage </th>
-                  <th><i class=" fa fa-edit"></i> Fin de Promotion</th>
-                  <th><i class=" fa fa-edit"></i> Gérer </th>
-
-                  <th></th>
+                  <tr>
+                    <th><i class="fa fa-bullhorn"></i> Prix initiale</th>
+                    <th class="hidden-phone"><i class="fa fa-question-circle"></i>Pourcentage</th>
+                    <th><i class="fa fa-bookmark"></i> Prix finale</th>
+          
+                    <th></th>
 
                   </tr>
 
                 </thead>
-
-
-                <p>Rechercher<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"></p>
-
-                <p align="center"><button onclick="sortTable()">TRIER</button></p>
-                <tbody id="myTable">
-                  <?PHP
-                  $i = 0;
-                  foreach ($listepromotion as $row) {
-                    $i++;
-
-                    ?>
-                    <tr>
-                      <td>
-                        <a href="basic_table.html#"><?PHP echo $row['ref']; ?></a>
-                      </td>
-                      <td class="hidden-phone"><?PHP echo $row['nomp']; ?></td>
-                      <td style="width:150px;"><img src="img/<?php echo $row['photop']; ?>" alt="img description" style="width:140px;"></td>
-                      <td><?PHP echo $row['prixi']; ?></td>
-                      <td><span class="label label-warning label-mini"><?PHP echo $row['pourcentage']; ?>%</span></td>
-                      <td class="hidden-phone"><?PHP echo $row['prixf']; ?></td>
-                      <td>
-
-                        <button class="btn btn-primary btn-xs" name="kk" data-toggle="modal" data-target="#myModal" <?php $ref = $row['ref']; ?>><i class="fa fa-pencil"></i></button>
-                        <input type="hidden" value="<?PHP echo $row['ref']; ?>" name="reff<?php echo $i ?>">
-
-                        <input type="hidden" value="<?PHP echo $row['ref']; ?>" name="ref">
-                        <form style="display: inline;" method="POST" action="supprimerpromotion.php">
-                          <button class="btn btn-danger btn-xs" name="supprimer"><i class="fa fa-trash-o"></i></button>
-                          <input type="hidden" value="<?PHP echo $row['ref']; ?>" name="ref">
-                        </form>
-
-                      </td>
-                    </tr>
-                  <?PHP
-                  }
-
-                  ?>
+                <tbody>
+        <?PHP
+          foreach($listepromotion as $row){
+        ?>
+                  <tr>
+                    <td>
+                      <a href="basic_table.html#"><?PHP echo $row['ref']; ?></a>
+                    </td>
+                    <td class="hidden-phone"><?PHP echo $row['nomp']; ?></td>
+                    <td><?PHP echo $row['prixi']; ?></td>
+                      
+                    </td>
+          </tr>
+          <?PHP
+          }
+          ?>
                 </tbody>
               </table>
             </div>
-            <script>
-              function myFunction() {
-                var input, filter, table, tr, td, i, txtValue;
-                input = document.getElementById("myInput");
-                filter = input.value.toUpperCase();
-                table = document.getElementById("myTable");
-                tr = table.getElementsByTagName("tr");
-                console.log(tr);
-                for (i = 0; i < tr.length; i++) {
-                  td = tr[i].getElementsByTagName("td")[1];
-                  console.log(td);
-                  if (td) {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                      tr[i].style.display = "";
-                    } else {
-                      tr[i].style.display = "none";
-                    }
-                  }
-                }
-              }
-
-              function sortTable() {
-                var table, rows, switching, i, x, y, shouldSwitch;
-                table = document.getElementById("myTable");
-                switching = true;
-                /*Make a loop that will continue until
-                no switching has been done:*/
-                while (switching) {
-                  //start by saying: no switching is done:
-                  switching = false;
-                  rows = table.rows;
-                  /*Loop through all table rows (except the
-                  first, which contains table headers):*/
-                  for (i = 1; i < (rows.length - 1); i++) {
-                    //start by saying there should be no switching:
-                    shouldSwitch = false;
-                    /*Get the two elements you want to compare,
-                    one from current row and one from the next:*/
-                    x = rows[i].getElementsByTagName("td")[1];
-                    y = rows[i + 1].getElementsByTagName("td")[1];
-                    //check if the two rows should switch place:
-                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                      //if so, mark as a switch and break the loop:
-                      shouldSwitch = true;
-                      break;
-                    }
-                  }
-                  if (shouldSwitch) {
-                    /*If a switch has been marked, make the switch
-                    and mark that a switch has been done:*/
-                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                    switching = true;
-                  }
-                }
-
-              }
-              $(document).ready(function1 () {
-  $('#dtBasicExample').DataTable({
-    "pagingType": "simple" // "simple" option for 'Previous' and 'Next' buttons only
-  });
-  $('.dataTables_length').addClass('bs-select');
-});
-            </script>
-<p>Click the button to print the current page.</p>
-
-<button onclick="fonction()">Print this page</button>
-
-<script>
-function fonction() {
-  window.print();
-}
-</script>
-
-            <?php /*
-    if(isset($_GET['reff1'])){ ?>
-        <script>
-          alert('a');
-          myModal('show');
-            
-        </script>
-<?php         
-    }*/
-            ?>
             <!-- /content-panel -->
           </div>
           <!-- /col-md-12 -->
-
-
         </div>
         <!-- /row -->
       </section>
     </section>
-
+    
     <!-- /MAIN CONTENT -->
     <!--main content end-->
     <!--footer start-->
@@ -561,110 +445,119 @@ function fonction() {
         </div>
         <a href="basic_table.html#" class="go-top">
           <i class="fa fa-angle-up"></i>
-        </a>
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Modal Header</h4>
-              </div>
-              <div class="modal-body">
-                <?PHP
-                include "entities/promotion.php";
-                if (1 == 1) {
-                  $promotionC = new promotionC();
-                  $result = $promotionC->recupererpromotion($ref);
-                  $total = $result->rowCount();
-                  ?>
-                  <input class=" form-control" id="cref" name="ref" minlength="2" type="text" value="<?PHP echo $ref ?>" required />
-                  <?php
-                    foreach ($result as $row) {
-                      $ref = $row['ref'];
-                      $nomp = $row['nomp'];
-                      $prixi = $row['prixi'];
-                      $pourcentage = $row['pourcentage'];
-                      $prixf = $row['prixf'];
-                      ?>
-                    <form method="POST">
-                      <p>Modifier promotion</p>
-                      <div style="color:black;" class="row mt">
-                        <div class="col-lg-12">
-                          <h4><i class="fa fa-angle-right"></i>Ajouter Promotion</h4>
-                          <div class="form-panel">
-                            <div class=" form">
-                              <form class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
-                                <div class="form-group ">
-                                  <label for="cref" class="control-label col-lg-2">Reference Produit</label>
-                                  <div class="col-lg-10">
-                                    <input class=" form-control" id="cref" name="ref" minlength="2" type="text" value="<?PHP echo $ref ?>" required />
-                                  </div>
-                                </div>
-                                <div class="form-group ">
-                                  <label for="cref" class="control-label col-lg-2">PHOTO</label>
-                                  <div class="col-lg-10">
-                                    <img src="img/<?php echo $row['photop']; ?>" alt="img description" style="width:140px;">
-                                  </div>
-                                </div>
-
-                                <div class="form-group ">
-                                  <label for="cenom" class="control-label col-lg-2">Nom Produit</label>
-                                  <div class="col-lg-10">
-                                    <input class="form-control " id="cnom" name="nomp" type="text" value="<?PHP echo $nomp ?>" required />
-                                  </div>
-                                </div>
-                                <div class="form-group ">
-                                  <label for="prixi" class="control-label col-lg-2">Prix Avant Promotion</label>
-                                  <div class="col-lg-2">
-                                    <input class="form-control " id="cprixi" type="number" name="prixi" value="<?PHP echo $prixi ?>" />
-                                  </div>
-                                </div>
-                                <div class="form-group ">
-                                  <label for="pourcentage" class="control-label col-lg-2">Pourcentage (%)</label>
-                                  <div class="col-lg-2">
-                                    <input class="form-control " id="cpourcentage" type="number" name="pourcentage" value="<?PHP echo $pourcentage ?>" />
-                                  </div>
-                                </div>
-                                <td><input type="hidden" name="ref_ini" value="<?PHP echo $ref; ?>"></td>
-
-                                <div class="form-group">
-                                  <div class="col-lg-offset-2 col-lg-10">
-                                    <button class="btn btn-theme" type="submit" name="modifier">Modifier</button>
-                                    <button class="btn btn-theme04" type="button">Cancel</button>
-                                  </div>
-                                </div>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                    <?PHP
-                      }
-                    }
-                    if (isset($_POST['modifier'])) {
-                      $ph = 'promotion-40023559.jpg';
-                      $p = $_POST['prixi'];
-                      $k = $_POST['pourcentage'];
-                      $pf = $p - ($p * ($k / 100));
-                      $promotion = new promotion($_POST['ref'], $_POST['nomp'], $ph, $_POST['prixi'], $_POST['pourcentage'], $pf);
-                      $promotionC->modifierpromotion($promotion, $_POST['ref_ini']);
-                      echo $_POST['ref_ini'];
-                      header("location:afficherpromotion.php");
-                      ob_end_flush();
-                    }
-                    ?>
+      </a>
+      <div class="modal fade" id="myModal" role="dialog">
+       <div class="modal-dialog">
+    
+      <!-- Modal content-->
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+    <?PHP
+      include "entities/promotion.php";
+      if (1==1){
+        $promotionC=new promotionC();
+        $result=$promotionC->recupererpromotion($ref);
+        foreach($result as $row){
+          $ref=$row['ref'];
+          $nomp=$row['nomp'];
+          $prixi=$row['prixi'];
+          $pourcentage=$row['pourcentage'];
+          $datef=$row['datef'];
+      ?>
+      <form method="POST">
+      <p>Modifier promotion</p>
+      <div style="color:black;" class="row mt">
+          <div class="col-lg-12">
+            <h4><i class="fa fa-angle-right"></i>Ajouter Promotion</h4>
+            <div class="form-panel">
+              <div class=" form">
+                <form class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
+                  <div class="form-group ">
+                    <label for="cref" class="control-label col-lg-2">Reference Produit</label>
+                    <div class="col-lg-10">
+                      <input class=" form-control" id="cref" name="ref" minlength="2" type="text"  value="<?PHP echo $ref ?>" required />
+                    </div>
+                  </div>
+                  <div class="form-group ">
+                    <label for="cenom" class="control-label col-lg-2">Nom Produit</label>
+                    <div class="col-lg-10">
+                      <input class="form-control " id="cnom" name="nomp" type="text" value="<?PHP echo $nomp ?>" required />
+                    </div>
+                  </div>
+                  <div class="form-group ">
+                    <label for="prixi" class="control-label col-lg-2">Prix Avant Promotion</label>
+                    <div class="col-lg-2">
+                      <input class="form-control " id="cprixi" type="number" name="prixi" value="<?PHP echo $prixi ?>" />
+                    </div>
+                  </div>
+                  <div class="form-group ">
+                      <label for="pourcentage" class="control-label col-lg-2">Pourcentage (%)</label>
+                      <div class="col-lg-2">
+                        <input class="form-control " id="cpourcentage" type="number" name="pourcentage" value="<?PHP echo $pourcentage ?>" />
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
+                    </div>
+                    <!--
+                  <div class="form-group ">
+                    <label for="cpourcentage" class="control-label col-lg-2">Pourcentage (%)</label>
+                    <div class="col-lg-10">
+                      <form class="form-control " id="cpourcentage" name="pourcentage" required>
+                          <select name="pourcentage">
+                              <option value="5">5</option>
+                              <option value="10">10</option>
+                              <option value="15">15</option>
+                              <option value="20">20</option>
+                              <option value="25">25</option>
+                            </select>
+                      </form>
+                    </div>
+                  </div> -->
+              
+                  <form action="#" class="form-horizontal style-form">
+                  <div class="form-group ">
+                    <label class="control-label col-md-3">DATE </label>
+                    <div class="col-md-3 col-xs-11">
+                      <input class="form-control form-control-inline input-medium default-date-picker" size="16" type="date" value="<?PHP echo $datef ?>" name="datef">
+                      <span class="help-block">Select date</span>
+                    </div>
+                  </div>
+        </form>
+        <td><input type="hidden" name="ref_ini" value="<?PHP echo $ref;?>"></td>
+                  
+                  <div class="form-group">
+                    <div class="col-lg-offset-2 col-lg-10">
+                      <button class="btn btn-theme" type="submit" name="modifier">Modifier</button>
+                      <button class="btn btn-theme04" type="button">Cancel</button>
+                    </div>
+                  </div>
+                </form>
               </div>
-
             </div>
-          </div>
-
+    </div>
+    <?PHP
+      }
+    }
+    if (isset($_POST['modifier'])){
+      $promotion=new promotion($_POST['ref'],$_POST['nomp'],$_POST['prixi'],$_POST['pourcentage'],$_POST['datef']);
+      $promotionC->modifierpromotion($promotion,$_POST['ref_ini']);
+      echo $_POST['ref_ini'];
+      header("Refresh");
+    }
+    ?>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
+      
+    </div>
+  </div>
+      
+    </div>
+  </div>
       </div>
     </footer>
     <!--footer end-->
@@ -678,7 +571,7 @@ function fonction() {
   <!--common script for all pages-->
   <script src="lib/common-scripts.js"></script>
   <!--script for this page-->
-
+  
 </body>
 
 </html>
