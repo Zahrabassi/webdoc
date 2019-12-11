@@ -1,4 +1,3 @@
-
 <?php
 ob_start();
 session_start();
@@ -46,9 +45,6 @@ if(isset($_POST['form1'])) {
 
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,7 +55,19 @@ if(isset($_POST['form1'])) {
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
   <title>Dashio - Bootstrap Admin Template</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/datepicker3.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+  <link rel="stylesheet" href="css/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+  <link rel="stylesheet" href="css/_all-skins.min.css">
+
+  <link rel="stylesheet" href="style.css">
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -84,57 +92,32 @@ if(isset($_POST['form1'])) {
   <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
-  <div id="login-page">
+ <div id="login-page">
     <div class="container">
-      <form class="form-login" action="indexGestproduit.php">
+      <form class="form-login" action="index.php">
         <h2 class="form-login-heading">sign in now</h2>
         <div class="login-wrap">
-          <input type="text" class="form-control" placeholder="User ID" autofocus>
-          <br>
-          <input type="password" class="form-control" placeholder="Password">
-          <label class="checkbox">
-            <input type="checkbox" value="remember-me"> Remember me
-            <span class="pull-right">
-            <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
-            </span>
-            </label>
-          <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
-          <hr>
-          <div class="login-social-link centered">
-            <p>or you can sign in via your social network</p>
-            <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
-            <button class="btn btn-twitter" type="submit"><i class="fa fa-twitter"></i> Twitter</button>
-          </div>
-          <div class="registration">
-            Don't have an account yet?<br/>
-            <a class="" href="#">
-              Create an account
-              </a>
-          </div>
+     <?php 
+      if( (isset($error_message)) && ($error_message!='') ):
+          echo '<div class="error">'.$error_message.'</div>';
+      endif;
+      ?>  
+    <form action="" method="post">
+      <?php $csrf->echoInputField(); ?>
+      <input type="hidden" name="_csrf" value="98771d80f266ac70daf07da4ac446ff5" />     <div class="form-group has-feedback">
+        <input class="form-control" placeholder="Email address" name="email" type="email" autocomplete="off" autofocus value="">
+      </div>
+      <div class="form-group has-feedback">
+        <input class="form-control" placeholder="Password" name="password" type="password" autocomplete="off" value="">
+      </div>
+      <div class="row">
+        <div class="col-xs-8"></div>
+        <div class="col-xs-4">
+          <input type="submit" class="btn btn-primary btn-block btn-flat login-button" name="form1" value="Log In">
         </div>
-        <!-- Modal -->
-        <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Forgot Password ?</h4>
-              </div>
-              <div class="modal-body">
-                <p>Enter your e-mail address below to reset your password.</p>
-                <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
-              </div>
-              <div class="modal-footer">
-                <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
-                <button class="btn btn-theme" type="button">Submit</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal -->
-      </form>
-    </div>
-  </div>
+      </div>
+    </form>
+  </div
   <!-- js placed at the end of the document so the pages load faster -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
@@ -146,6 +129,25 @@ if(isset($_POST['form1'])) {
       speed: 500
     });
   </script>
+
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap.min.js"></script>
+<script src="js/select2.full.min.js"></script>
+<script src="js/jquery.inputmask.js"></script>
+<script src="js/jquery.inputmask.date.extensions.js"></script>
+<script src="js/jquery.inputmask.extensions.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/icheck.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/jquery.sparkline.min.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<script src="js/app.min.js"></script>
+<script src="js/demo.js"></script>
+
+
 </body>
 
 </html>

@@ -4,6 +4,7 @@
 <?php include("include/header.php");?>
 
 <body>
+
   <section id="main-content">
       <section class="wrapper">
         <div class="row">
@@ -12,7 +13,32 @@
             <div class="border-head">
               <h3>Liste des produits</h3>
 
-
+<html>
+   <head>
+      <script type="text/javascript"> 
+         function refresh(){
+             var t = 1000; // rafraîchissement en millisecondes
+             setTimeout('showDate()',t)
+         }
+         
+         function showDate() {
+             var date = new Date()
+             var h = date.getHours();
+             var m = date.getMinutes();
+             var s = date.getSeconds();
+             if( h < 10 ){ h = '0' + h; }
+             if( m < 10 ){ m = '0' + m; }
+             if( s < 10 ){ s = '0' + s; }
+             var time = h + ':' + m + ':' + s
+             document.getElementById('horloge').innerHTML = time;
+             refresh();
+          }
+      </script>
+   </head>
+   <body onload=showDate();>
+      <span id='horloge' style="background-color:#1C1C1C;color:silver;font-size:40px;"></span>
+   </body>
+</html>
 
  
               </div>
@@ -27,19 +53,28 @@
      </div>
      <div class="form-group">
         <label for="prix">Prix :<em>*</em></label>
-        <input id="prix" type="text" class="form-control form-control-user" name="prix" placeholder="Veuillez saisir le prix" required="true" ><br>
+        <input id="prix" type="number" class="form-control form-control-user" name="prix" placeholder="Veuillez saisir le prix" required="true" ><br>
 
       </div>
       <div class="form-group">
         <label for="nb_chambre">Nombre de chambre : <em>*</em></label>
-        <input id="nb_chambre" type="text" class="form-control form-control-user" name="nb_chambre" placeholder="Veuillez saisir le nombre des chambres " required="true" ><br>
+        <input id="nb_chambre" type="number" class="form-control form-control-user" name="nb_chambre" placeholder="Veuillez saisir le nombre des chambres " required="true"
+           
+         ><br>
 
-      </div>
-       <div class="form-group">
-        <label for="localisation">Localisation : <em>*</em></label>
-        <input id="localisation" type="text" class="form-control form-control-user" name="localisation" placeholder="Veuillez saisir la localisation " required="true" ><br>
-
-      </div>
+   <form method="post" required="true" >
+   <p> 
+       <label for="localisation">LOCALISATION</label><br />
+       <select name="localisation" id="localisation">
+           <option value="ghazella">GHAZELLA</option>
+           <option value="riadh">RIADH EL ANDALOUS</option>
+           <option value="hammamet">HAMAMMET</option>
+           <option value="carthage">CARTHAGE</option>
+           <option value="jardins">LES JARDINS DEL MENZAH</option>
+          
+       </select>
+   </p>
+</form>
 
 
    
@@ -91,6 +126,12 @@
     
     <!--footer end-->
   </section>
+  
+
+
+
+
+
   <?php include("include/footer.php");?>
 </body>
 
